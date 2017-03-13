@@ -9,13 +9,13 @@
     <script src="node_modules/mocha/mocha.js"></script>
     <script src="node_modules/chai/chai.js"></script>
     <script>mocha.setup('bdd')</script>
+    <!-- https://www.sitepoint.com/unit-test-javascript-mocha-chai/ -->
 
     <!-- load code you want to test here -->
-
+    
     <!-- load your test files here -->
+    <script src="test/arrayTest.js"></script>
+    <script> mocha.run(); </script>
 
-    <script>
-      mocha.run();
-    </script>
   </body>
 </html>
